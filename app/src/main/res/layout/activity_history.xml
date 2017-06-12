@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorTitle"
+    android:fitsSystemWindows="true"
+    tools:context="com.fang.wmmall.HistoryActivity">
+    <include layout="@layout/title_bar"/>
+    <TextView
+        android:background="@android:color/white"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/had_buy"/>
+</com.zhy.autolayout.AutoLinearLayout>

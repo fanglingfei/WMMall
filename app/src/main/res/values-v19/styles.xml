@@ -20,8 +20,9 @@
     </style>
 
     <!--沉浸式状态栏-->
-    <style name="ColorTranslucentTheme" parent="AppTheme.FullScreen">
-
+    <style name="ColorTranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
     </style>
 
 </resources>

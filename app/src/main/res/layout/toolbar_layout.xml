@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    app:popupTheme="@style/AppTheme.PopupOverlay"
+    app:theme="@style/AppTheme.Toolbar">
+
+    <com.zhy.autolayout.AutoRelativeLayout
+        android:layout_marginRight="28px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:id="@id/back"
+            android:textSize="28px"
+            android:textColor="#fff"
+            android:text="@string/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_centerInParent="true"
+            android:textSize="38px"
+            android:textColor="#fff"
+            android:text="标题"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/shopping_cart"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:textSize="28px"
+            android:textColor="#fff"
+            android:text="@string/shopping_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/had_buy"
+            android:layout_marginRight="28px"
+            android:layout_toLeftOf="@id/shopping_cart"
+            android:layout_centerVertical="true"
+            android:textSize="28px"
+            android:textColor="#fff"
+            android:text="@string/had_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </com.zhy.autolayout.AutoRelativeLayout>
+
+
+</android.support.v7.widget.Toolbar>
+

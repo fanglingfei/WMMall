@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                       android:layout_width="match_parent"
+                                       android:layout_height="128px"
+                                       android:background="@color/colorTitle">
+
+    <TextView
+        android:layout_marginLeft="28px"
+        android:id="@id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/back"
+        android:textColor="@android:color/white"
+        android:textSize="28px"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="标题"
+        android:textColor="@android:color/white"
+        android:textSize="38px"/>
+
+    <TextView
+        android:layout_marginRight="28px"
+        android:id="@+id/shopping_cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="@string/shopping_cart"
+        android:textColor="@android:color/white"
+        android:textSize="28px"/>
+
+    <TextView
+        android:id="@+id/had_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="28px"
+        android:layout_toLeftOf="@id/shopping_cart"
+        android:text="@string/had_buy"
+        android:textColor="@android:color/white"
+        android:textSize="28px"/>
+</com.zhy.autolayout.AutoRelativeLayout>

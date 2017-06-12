@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">WMMall</string>
     <string name="wm_mall">微马公益商城</string>
+    <string name="back">返回</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="had_buy">已购买</string>
+    <string name="my_cart">我的购物车</string>
+    <string name="my_buy">我的购买</string>
 </resources>

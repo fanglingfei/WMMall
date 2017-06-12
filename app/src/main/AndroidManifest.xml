@@ -9,7 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashActivity"
+
+        <!-- autolayout的设计文稿的尺寸配置 -->
+        <meta-data
+            android:name="design_width"
+            android:value="768">
+        </meta-data>
+        <meta-data
+            android:name="design_height"
+            android:value="1280">
+        </meta-data>
+
+        <activity
+            android:name=".SplashActivity"
             android:theme="@style/AppTheme.FullScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -17,7 +29,24 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"/>
+        <activity
+            android:label="@string/wm_mall"
+            android:name=".MainActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/ColorTranslucentTheme"/>
+
+        <activity
+            android:launchMode="singleInstance"
+            android:label="@string/my_cart"
+            android:name=".CartActivity"
+            android:theme="@style/ColorTranslucentTheme">
+        </activity>
+        <activity
+            android:launchMode="singleInstance"
+            android:label="@string/my_buy"
+            android:name=".HistoryActivity"
+            android:theme="@style/ColorTranslucentTheme">
+        </activity>
     </application>
 
 </manifest>
