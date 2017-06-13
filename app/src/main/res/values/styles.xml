@@ -21,7 +21,6 @@
 
     <!--沉浸式状态栏-->
     <style name="ColorTranslucentTheme" parent="AppTheme.FullScreen">
-
     </style>
 
 </resources>

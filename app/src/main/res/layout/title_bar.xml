@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                                        android:layout_width="match_parent"
-                                       android:layout_height="128px"
+                                       android:layout_height="@dimen/abc_action_bar_default_height_material"
                                        android:background="@color/colorTitle">
 
     <TextView
